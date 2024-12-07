@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenBackgroundColor">
+
+    <!-- title text -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="My Favorites"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_alignParentTop="true" />
+
+
+    <LinearLayout
+        android:id="@+id/booksList"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/titleText"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" >
+
+        <!-- book 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/bookImage1"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/book1" />
+
+            <TextView
+                android:id="@+id/bookTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="The Wedding People, By: Alison Espach"
+                android:textSize="16sp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <!-- book 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/bookImage2"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/book2" />
+
+            <TextView
+                android:id="@+id/bookTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="Funny Story, By: Emily Henry"
+                android:textSize="16sp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <!--book 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/bookImage3"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/book3" />
+
+            <TextView
+                android:id="@+id/bookTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="How to End a Love Story, By: Yulin Kuang"
+                android:textSize="16sp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

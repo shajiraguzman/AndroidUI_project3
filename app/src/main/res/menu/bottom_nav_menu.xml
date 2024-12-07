@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- favorite button -->
+    <item
+        android:id="@+id/nav_fave"
+        android:icon="@drawable/fave"
+        android:title="Favorites" />
+
+    <!-- search button -->
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/search"
+        android:title="Search" />
+
+    <!-- library button -->
+    <item
+        android:id="@+id/nav_books"
+        android:icon="@drawable/books"
+        android:title="Library" />
+</menu>
